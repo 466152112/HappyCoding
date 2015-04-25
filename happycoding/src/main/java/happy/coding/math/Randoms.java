@@ -364,7 +364,7 @@ public class Randoms {
 	 * nonnegative and their sum (very nearly) equals 1.0.
 	 */
 	public static int discrete(double[] a) {
-		double EPSILON = 1E-14;
+		double EPSILON = 1E-5;
 		double sum = 0.0;
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] < 0.0)
